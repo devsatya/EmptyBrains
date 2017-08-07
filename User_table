@@ -1,0 +1,16 @@
+ CREATE TABLE USERS17
+   (
+
+   	USERID number(10) constraint c_pk_users primary key ,
+ 
+	USERNAME VARCHAR2(50),
+  
+  PASSWORD VARCHAR2(20),
+ 
+	MOBILENO varchar2(20),
+ 
+	EMAILID VARCHAR2(255),
+  
+  GENDER VARCHAR2(1)
+
+   );
